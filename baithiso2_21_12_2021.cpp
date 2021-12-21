@@ -14,8 +14,9 @@ struct congnhan {
     double hesoluong;
     int ngaycong;
     void input() {
+        
+        cin >> hoten >> macongnhan >> hesoluong >> ngaycong;
         getline(cin, hoten);
-        cin >> macongnhan >> hesoluong >> ngaycong;
     }
 };
 
